@@ -7,7 +7,7 @@ import os
 from typing import Any
 
 import apimoex
-import cbrapi  # type: ignore
+import cbrapi
 import pandas as pd
 import requests
 
