@@ -3,7 +3,9 @@
 
 import os
 
-from src.data_extract import get_convert_json_in_data, get_data_xlsx, get_df_from_xlsx
+from src.data_extract import get_convert_json_in_data
+from src.data_extract import get_data_xlsx
+from src.data_extract import get_df_from_xlsx
 
 
 def test_get_data_xlsx(fix_path_file_xlsx):

@@ -1,8 +1,8 @@
 # utils.py
 """Модуль вспомогательных функций выдающих данные основным функциям модуля views.py"""
 
-import os
 from datetime import datetime
+import os
 
 from src.data_extract import get_data_xlsx
 

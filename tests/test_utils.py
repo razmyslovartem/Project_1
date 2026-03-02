@@ -4,7 +4,10 @@
 from datetime import datetime
 from unittest.mock import patch
 
-from src.main_page.utils import get_count_carts, get_sort_by_date, get_status_time_message, get_tzs_filter_date
+from src.main_page.utils import get_count_carts
+from src.main_page.utils import get_sort_by_date
+from src.main_page.utils import get_status_time_message
+from src.main_page.utils import get_tzs_filter_date
 
 
 @patch("src.main_page.utils.datetime")

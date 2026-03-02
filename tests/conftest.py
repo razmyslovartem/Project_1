@@ -1,8 +1,8 @@
 # conftest.py
 """Файл conftest.py для хранения фикстур"""
 
-import os
 from math import nan
+import os
 
 import pandas as pd
 import pytest

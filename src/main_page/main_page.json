@@ -1,5 +1,5 @@
 {
-    "greeting": "Добрый вечер",
+    "greeting": "Доброй ночи",
     "cards": [
         {
             "last_digits": "7197",
@@ -57,23 +57,23 @@
     "stock_prices": [
         {
             "stock": "OZON",
-            "price": 4629.0
+            "price": 4622.0
         },
         {
             "stock": "SBER",
-            "price": 313.21
+            "price": 313.65
         },
         {
             "stock": "VKCO",
-            "price": 306.05
+            "price": 305.15
         },
         {
             "stock": "VTBR",
-            "price": 85.22
+            "price": 84.945
         },
         {
             "stock": "YDEX",
-            "price": 4663.5
+            "price": 4657.5
         }
     ]
 }

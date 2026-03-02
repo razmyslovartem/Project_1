@@ -1,10 +1,11 @@
 # decorators.py
 """Для размещения декораторов"""
 
-import os
 from datetime import datetime
 from functools import wraps
-from typing import Any, Callable
+import os
+from typing import Any
+from typing import Callable
 
 
 def log(path_filename: str | None = None) -> Callable:

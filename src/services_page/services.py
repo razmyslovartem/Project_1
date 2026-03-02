@@ -1,11 +1,12 @@
 # services.py
 """Модуль набора основных функций выдающих информацию для страницы сервисов"""
 
-import os
 from collections import defaultdict
 from datetime import datetime
+import os
 
-from src.data_extract import get_convert_data_in_json, get_data_xlsx
+from src.data_extract import get_convert_data_in_json
+from src.data_extract import get_data_xlsx
 from src.services_page.decorators import log
 
 

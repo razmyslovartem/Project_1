@@ -1,7 +1,8 @@
 # test_external_api.py
 """Модуль с тестами"""
 
-from src.main_page.external_api import get_current_exchange_rate, get_current_stock_price
+from src.main_page.external_api import get_current_exchange_rate
+from src.main_page.external_api import get_current_stock_price
 
 
 def test_get_current_exchange_rate(fix_user_settings_dict):

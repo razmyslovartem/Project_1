@@ -1,8 +1,9 @@
 # external_api.py
 """Модуль external_api.py содержит функции работающие c валютами а волатильность обновляет API"""
 
+from datetime import datetime
+from datetime import timedelta
 import os
-from datetime import datetime, timedelta
 from typing import Any
 
 import apimoex
