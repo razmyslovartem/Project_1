@@ -47,33 +47,33 @@
     "currency_rates": [
         {
             "currency": "USD",
-            "rate": 77.27
+            "rate": 77.17
         },
         {
             "currency": "EUR",
-            "rate": 91.3
+            "rate": 90.73
         }
     ],
     "stock_prices": [
         {
             "stock": "OZON",
-            "price": 4622.0
+            "price": 4627.5
         },
         {
             "stock": "SBER",
-            "price": 313.65
+            "price": 313.58
         },
         {
             "stock": "VKCO",
-            "price": 305.15
+            "price": 305.1
         },
         {
             "stock": "VTBR",
-            "price": 84.945
+            "price": 85.045
         },
         {
             "stock": "YDEX",
-            "price": 4657.5
+            "price": 4658.0
         }
     ]
 }
