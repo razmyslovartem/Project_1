@@ -8,7 +8,9 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
-pandas = {extras = ["excel"], version = "^3.0.1"}
+pandas = {version = "^2.2.3", extras = ["excel"]}
+apimoex = "^1.4.0"
+cbrapi = "^0.1.6"
 
 
 [build-system]

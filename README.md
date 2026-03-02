@@ -168,3 +168,10 @@ exclude = '''
 [tool.isort]
 line_length = 119
 ```
+
+## 📁 Данные
+
+Файлы с данными не включены в репозиторий. 
+Скачайте их по ссылкам и поместите в папку `data/`:
+
+- [operations.xlsx](https://docs.google.com/spreadsheets/d/1yXnr282zAMcTkEhIwZFaJlPJvAeZIwvB/)

@@ -57,23 +57,23 @@
     "stock_prices": [
         {
             "stock": "OZON",
-            "price": 4702.0
+            "price": 4612.5
         },
         {
             "stock": "SBER",
-            "price": 314.14
+            "price": 313.5
         },
         {
             "stock": "VKCO",
-            "price": 309.7
+            "price": 304.6
         },
         {
             "stock": "VTBR",
-            "price": 86.09
+            "price": 84.955
         },
         {
             "stock": "YDEX",
-            "price": 4752.0
+            "price": 4660.0
         }
     ]
 }
