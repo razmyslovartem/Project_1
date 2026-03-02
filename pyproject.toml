@@ -8,6 +8,9 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
+pandas = {version = "^2.2.3", extras = ["excel"]}
+apimoex = "^1.4.0"
+cbrapi = "^0.1.6"
 
 
 [build-system]
@@ -38,7 +41,7 @@ known_first_party = ["src"]
 src_paths = ["src", "test"]
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.13"
 show_error_codes = true
 ignore_missing_imports = true
 disallow_incomplete_defs = true
@@ -48,7 +51,13 @@ warn_return_any = true
 warn_unreachable = true
 no_implicit_optional = true
 strict_optional = true
-exclude = [".git", ".venv", "venv", "__pycache__"]
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "tests/"
+]
 exclude_gitignore = true
 
 [tool.black]
@@ -76,7 +85,10 @@ lint = [
 ]
 dev = [
     "pytest (>=9.0.2,<10.0.0)",
-    "pytest-cov (>=7.0.0,<8.0.0)"
+    "pytest-cov (>=7.0.0,<8.0.0)",
+    "types-requests (>=2.32.4.20260107,<3.0.0.0)",
+    "pandas-stubs (>=3.0.0.260204,<4.0.0.0)",
+    "types-python-dateutil (>=2.9.0.20260302,<3.0.0.0)"
 ]
 
 [tool.coverage.report]
